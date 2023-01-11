@@ -16,4 +16,11 @@ public interface LoginService {
     SysUser checkToken(String token);
 
     Result logout(String token);
+
+    /**
+     * 注册功能
+     * @param loginParams
+     * @return
+     */
+    Result register(LoginParams loginParams);
 }
