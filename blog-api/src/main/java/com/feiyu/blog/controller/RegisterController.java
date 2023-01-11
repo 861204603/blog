@@ -16,7 +16,7 @@ public class RegisterController {
 
     @PostMapping
     public Result register(@RequestBody LoginParams loginParams){
-
+        //都发生了快放假了
         return loginService.register(loginParams);
     }
 }
